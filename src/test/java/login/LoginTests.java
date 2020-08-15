@@ -47,8 +47,7 @@ public class LoginTests extends BaseTest {
         String expectedPanelHeadingText = "Dashboard";
         String actualPanelHeadingText = dashboardPage.getPanelHeadingText();
             
-        assertTrue("Faild - panel heading texts doesn't match", expectedPanelHeadingText.equals(actualPanelHeadingText));
-        
+        assertTrue("Faild - panel heading texts doesn't match", expectedPanelHeadingText.equals(actualPanelHeadingText));       
         dashboardPage.logout();
         
         
